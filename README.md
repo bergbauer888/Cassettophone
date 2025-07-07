@@ -1,8 +1,8 @@
 # Cassettophone
-##### WIP
+##### README is WIP
 ## Steps to run the app:
 
-- uv venv --python 3.11.0
+- uv venv --python 3.13.0
 - source .venv/bin/activate
 - uv sync
 - uv run main.py
