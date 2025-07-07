@@ -1,0 +1,12 @@
+{
+  "transcript": [
+    {"agentId": "Joe Biden", "text": "Hey folks, Golang, it's like the heart of the tech world! It's simple, efficient, and perfect for building scalable apps."},
+    {"agentId": "Kamala Harris", "text": "That's right, Joe! It's a statically typed language, which means less time debugging. It's all about precision."},
+    {"agentId": "Donald Trump", "text": "Wrong, Kamala! Golang is the best because it's fast and concurrent. It's like winning at everything!"},
+    {"agentId": "Joe Biden", "text": "Well, Donald, it's also great for cloud-native development. It's all about that server-side magic."},
+    {"agentId": "Kamala Harris", "text": "And let's not forget its simplicity, Joe! Goroutines and channels make multithreaded code a breeze."},
+    {"agentId": "Donald Trump", "text": "Exactly, Kamala! And did you know? It's used by Google, Uber, and Dropbox. It's like the best of the best!"},
+    {"agentId": "Joe Biden", "text": "That's the spirit, folks! Golang is all about efficiency and power."}
+  ],
+  "summary": ["Golang Programming"]
+}

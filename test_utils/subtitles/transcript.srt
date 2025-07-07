@@ -1,0 +1,105 @@
+1
+00:00:00,700 --> 00:00:01,420
+<font color="#00ff00">Folks,</font> Python's like
+ 3
+00:00:01,420 --> 00:00:01,900
+Folks, <font color="#00ff00">Python's</font> like
+ 4
+00:00:01,900 --> 00:00:02,080
+Folks, Python's <font color="#00ff00">like</font>
+ 6
+00:00:02,080 --> 00:00:02,180
+<font color="#00ff00">a</font> snake that
+ 7
+00:00:02,180 --> 00:00:02,500
+a <font color="#00ff00">snake</font> that
+ 8
+00:00:02,500 --> 00:00:02,760
+a snake <font color="#00ff00">that</font>
+ 10
+00:00:02,760 --> 00:00:02,980
+<font color="#00ff00">codes</font> itself.
+ 11
+00:00:02,980 --> 00:00:04,200
+codes <font color="#00ff00">itself.</font>
+ 12
+00:00:04,200 --> 00:00:04,380
+<font color="#00ff00">It's</font> simple,
+ 13
+00:00:04,380 --> 00:00:04,840
+It's <font color="#00ff00">simple,</font>
+ 14
+00:00:04,840 --> 00:00:05,300
+<font color="#00ff00">powerful,</font>
+ 15
+00:00:05,300 --> 00:00:05,480
+<font color="#00ff00">and</font> can handle
+ 16
+00:00:05,480 --> 00:00:05,640
+and <font color="#00ff00">can</font> handle
+ 18
+00:00:05,640 --> 00:00:05,920
+and can <font color="#00ff00">handle</font>
+ 19
+00:00:05,920 --> 00:00:06,100
+<font color="#00ff00">any</font> job with
+ 20
+00:00:06,100 --> 00:00:06,540
+any <font color="#00ff00">job</font> with
+ 22
+00:00:06,540 --> 00:00:06,640
+any job <font color="#00ff00">with</font>
+ 23
+00:00:06,640 --> 00:00:07,680
+<font color="#00ff00">style.</font>
+ 24
+00:00:07,680 --> 00:00:07,920
+<font color="#00ff00">Don't</font> you worry
+ 25
+00:00:07,920 --> 00:00:08,000
+Don't <font color="#00ff00">you</font> worry
+ 26
+00:00:08,000 --> 00:00:08,240
+Don't you <font color="#00ff00">worry</font>
+ 27
+00:00:08,240 --> 00:00:08,460
+<font color="#00ff00">about</font> getting tangled
+ 28
+00:00:08,460 --> 00:00:08,720
+about <font color="#00ff00">getting</font> tangled
+ 29
+00:00:08,720 --> 00:00:09,180
+about getting <font color="#00ff00">tangled</font>
+ 30
+00:00:09,180 --> 00:00:09,400
+<font color="#00ff00">in</font> complexity.
+ 31
+00:00:09,400 --> 00:00:10,440
+in <font color="#00ff00">complexity.</font>
+ 32
+00:00:10,440 --> 00:00:10,740
+<font color="#00ff00">Python</font> will slither
+ 33
+00:00:10,740 --> 00:00:11,120
+Python <font color="#00ff00">will</font> slither
+ 34
+00:00:11,120 --> 00:00:11,620
+Python will <font color="#00ff00">slither</font>
+ 35
+00:00:11,620 --> 00:00:11,820
+<font color="#00ff00">through</font> your code
+ 36
+00:00:11,820 --> 00:00:12,280
+through <font color="#00ff00">your</font> code
+ 38
+00:00:12,280 --> 00:00:12,560
+through your <font color="#00ff00">code</font>
+ 39
+00:00:12,560 --> 00:00:13,160
+<font color="#00ff00">like</font> a pro.
+ 40
+00:00:13,160 --> 00:00:13,320
+like <font color="#00ff00">a</font> pro.
+ 41
+00:00:13,320 --> 00:00:13,580
+like a <font color="#00ff00">pro.</font>

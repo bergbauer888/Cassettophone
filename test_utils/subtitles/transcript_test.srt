@@ -1,0 +1,345 @@
+1
+00:00:01,020 --> 00:00:01,140
+<font color="#00ff00">Hey</font> folks,
+ 2
+00:00:01,140 --> 00:00:01,540
+Hey <font color="#00ff00">folks,</font>
+ 3
+00:00:01,540 --> 00:00:01,960
+<font color="#00ff00">Golang,</font>
+ 4
+00:00:01,960 --> 00:00:02,220
+<font color="#00ff00">it's</font> like the
+ 5
+00:00:02,220 --> 00:00:02,360
+it's <font color="#00ff00">like</font> the
+ 6
+00:00:02,360 --> 00:00:02,500
+it's like <font color="#00ff00">the</font>
+ 7
+00:00:02,500 --> 00:00:02,680
+<font color="#00ff00">heart</font> of the
+ 8
+00:00:02,680 --> 00:00:02,820
+heart <font color="#00ff00">of</font> the
+ 9
+00:00:02,820 --> 00:00:03,000
+heart of <font color="#00ff00">the</font>
+ 11
+00:00:03,000 --> 00:00:03,140
+<font color="#00ff00">tech</font> world.
+ 12
+00:00:03,140 --> 00:00:04,180
+tech <font color="#00ff00">world.</font>
+ 13
+00:00:04,180 --> 00:00:04,380
+<font color="#00ff00">It's</font> simple,
+ 14
+00:00:04,380 --> 00:00:04,860
+It's <font color="#00ff00">simple,</font>
+ 15
+00:00:04,860 --> 00:00:05,260
+<font color="#00ff00">efficient,</font>
+ 16
+00:00:05,260 --> 00:00:05,520
+<font color="#00ff00">and</font> perfect for
+ 17
+00:00:05,520 --> 00:00:05,980
+and <font color="#00ff00">perfect</font> for
+ 19
+00:00:05,980 --> 00:00:06,080
+and perfect <font color="#00ff00">for</font>
+ 20
+00:00:06,080 --> 00:00:06,440
+<font color="#00ff00">building</font> scalable apps.
+ 21
+00:00:06,440 --> 00:00:07,020
+building <font color="#00ff00">scalable</font> apps.
+ 22
+00:00:07,020 --> 00:00:08,020
+building scalable <font color="#00ff00">apps.</font>
+ 23
+00:00:08,020 --> 00:00:08,200
+<font color="#00ff00">That's</font> right, Joe.
+ 24
+00:00:08,200 --> 00:00:08,460
+That's <font color="#00ff00">right,</font> Joe.
+ 26
+00:00:08,460 --> 00:00:09,560
+That's right, <font color="#00ff00">Joe.</font>
+ 27
+00:00:09,560 --> 00:00:09,660
+<font color="#00ff00">It's</font> a statically
+ 28
+00:00:09,660 --> 00:00:09,780
+It's <font color="#00ff00">a</font> statically
+ 29
+00:00:09,780 --> 00:00:10,260
+It's a <font color="#00ff00">statically</font>
+ 30
+00:00:10,260 --> 00:00:10,560
+<font color="#00ff00">typed</font> language,
+ 31
+00:00:10,560 --> 00:00:11,000
+typed <font color="#00ff00">language,</font>
+ 32
+00:00:11,000 --> 00:00:11,400
+<font color="#00ff00">which</font> means less
+ 34
+00:00:11,400 --> 00:00:11,540
+which <font color="#00ff00">means</font> less
+ 35
+00:00:11,540 --> 00:00:11,840
+which means <font color="#00ff00">less</font>
+ 36
+00:00:11,840 --> 00:00:12,120
+<font color="#00ff00">time</font> debugging.
+ 37
+00:00:12,120 --> 00:00:13,520
+time <font color="#00ff00">debugging.</font>
+ 38
+00:00:13,520 --> 00:00:13,620
+<font color="#00ff00">It's</font> all about
+ 39
+00:00:13,620 --> 00:00:13,780
+It's <font color="#00ff00">all</font> about
+ 40
+00:00:13,780 --> 00:00:14,020
+It's all <font color="#00ff00">about</font>
+ 41
+00:00:14,020 --> 00:00:14,780
+<font color="#00ff00">precision.</font>
+ 42
+00:00:14,780 --> 00:00:15,160
+<font color="#00ff00">Wrong,</font>
+ 43
+00:00:15,160 --> 00:00:15,820
+<font color="#00ff00">Kamala,</font>
+ 44
+00:00:15,820 --> 00:00:16,180
+<font color="#00ff00">Golang</font> is the
+ 45
+00:00:16,180 --> 00:00:16,400
+Golang <font color="#00ff00">is</font> the
+ 47
+00:00:16,400 --> 00:00:16,500
+Golang is <font color="#00ff00">the</font>
+ 48
+00:00:16,500 --> 00:00:16,940
+<font color="#00ff00">best</font> because it's
+ 50
+00:00:16,940 --> 00:00:17,040
+best <font color="#00ff00">because</font> it's
+ 51
+00:00:17,040 --> 00:00:17,440
+best because <font color="#00ff00">it's</font>
+ 53
+00:00:17,440 --> 00:00:17,820
+<font color="#00ff00">fast</font> and concurrent.
+ 55
+00:00:17,820 --> 00:00:17,920
+fast <font color="#00ff00">and</font> concurrent.
+ 56
+00:00:17,920 --> 00:00:19,200
+fast and <font color="#00ff00">concurrent.</font>
+ 57
+00:00:19,200 --> 00:00:19,300
+<font color="#00ff00">It's</font> like winning
+ 58
+00:00:19,300 --> 00:00:19,440
+It's <font color="#00ff00">like</font> winning
+ 59
+00:00:19,440 --> 00:00:19,680
+It's like <font color="#00ff00">winning</font>
+ 60
+00:00:19,680 --> 00:00:19,900
+<font color="#00ff00">at</font> everything.
+ 61
+00:00:19,900 --> 00:00:20,360
+at <font color="#00ff00">everything.</font>
+ 62
+00:00:20,360 --> 00:00:20,580
+<font color="#00ff00">Well,</font>
+ 63
+00:00:20,580 --> 00:00:20,940
+<font color="#00ff00">Donald,</font>
+ 64
+00:00:20,940 --> 00:00:21,100
+<font color="#00ff00">it's</font> also great
+ 65
+00:00:21,100 --> 00:00:21,340
+it's <font color="#00ff00">also</font> great
+ 66
+00:00:21,340 --> 00:00:21,720
+it's also <font color="#00ff00">great</font>
+ 67
+00:00:21,720 --> 00:00:22,180
+<font color="#00ff00">for</font> cloud native
+ 69
+00:00:22,180 --> 00:00:22,400
+for <font color="#00ff00">cloud</font> native
+ 70
+00:00:22,400 --> 00:00:22,760
+for cloud <font color="#00ff00">native</font>
+ 71
+00:00:22,760 --> 00:00:24,060
+<font color="#00ff00">development.</font>
+ 72
+00:00:24,060 --> 00:00:24,240
+<font color="#00ff00">It's</font> all about
+ 73
+00:00:24,240 --> 00:00:24,360
+It's <font color="#00ff00">all</font> about
+ 74
+00:00:24,360 --> 00:00:24,660
+It's all <font color="#00ff00">about</font>
+ 75
+00:00:24,660 --> 00:00:24,940
+<font color="#00ff00">that</font> server side
+ 76
+00:00:24,940 --> 00:00:25,380
+that <font color="#00ff00">server</font> side
+ 77
+00:00:25,380 --> 00:00:25,740
+that server <font color="#00ff00">side</font>
+ 78
+00:00:25,740 --> 00:00:27,340
+<font color="#00ff00">magic.</font>
+ 79
+00:00:27,340 --> 00:00:27,460
+<font color="#00ff00">And</font> let's not
+ 80
+00:00:27,460 --> 00:00:27,740
+And <font color="#00ff00">let's</font> not
+ 82
+00:00:27,740 --> 00:00:27,880
+And let's <font color="#00ff00">not</font>
+ 83
+00:00:27,880 --> 00:00:28,200
+<font color="#00ff00">forget</font> its simplicity,
+ 84
+00:00:28,200 --> 00:00:28,460
+forget <font color="#00ff00">its</font> simplicity,
+ 85
+00:00:28,460 --> 00:00:29,180
+forget its <font color="#00ff00">simplicity,</font>
+ 87
+00:00:29,180 --> 00:00:30,260
+<font color="#00ff00">Joe.</font>
+ 88
+00:00:30,260 --> 00:00:30,660
+<font color="#00ff00">Goratines</font> and channels
+ 89
+00:00:30,660 --> 00:00:30,840
+Goratines <font color="#00ff00">and</font> channels
+ 90
+00:00:30,840 --> 00:00:31,200
+Goratines and <font color="#00ff00">channels</font>
+ 91
+00:00:31,200 --> 00:00:31,580
+<font color="#00ff00">make</font> multi-threaded code
+ 93
+00:00:31,580 --> 00:00:31,840
+make <font color="#00ff00">multi</font> -threaded
+ 94
+00:00:31,840 --> 00:00:32,340
+make multi <font color="#00ff00">-threaded</font>
+ 96
+00:00:32,340 --> 00:00:32,540
+make multi-threaded <font color="#00ff00">code</font>
+ 97
+00:00:32,540 --> 00:00:32,780
+<font color="#00ff00">a</font> breeze.
+ 98
+00:00:32,780 --> 00:00:33,220
+a <font color="#00ff00">breeze.</font>
+ 99
+00:00:33,220 --> 00:00:33,860
+<font color="#00ff00">Exactly,</font> Kamala.
+ 101
+00:00:33,860 --> 00:00:35,280
+Exactly, <font color="#00ff00">Kamala.</font>
+ 102
+00:00:35,280 --> 00:00:35,380
+<font color="#00ff00">And</font> did you
+ 103
+00:00:35,380 --> 00:00:35,540
+And <font color="#00ff00">did</font> you
+ 104
+00:00:35,540 --> 00:00:35,660
+And did <font color="#00ff00">you</font>
+ 105
+00:00:35,660 --> 00:00:35,860
+<font color="#00ff00">know</font> it's used
+ 106
+00:00:35,860 --> 00:00:36,140
+know <font color="#00ff00">it's</font> used
+ 107
+00:00:36,140 --> 00:00:36,340
+know it's <font color="#00ff00">used</font>
+ 108
+00:00:36,340 --> 00:00:36,500
+<font color="#00ff00">by</font> Google,
+ 109
+00:00:36,500 --> 00:00:36,920
+by <font color="#00ff00">Google,</font>
+ 110
+00:00:36,920 --> 00:00:37,380
+<font color="#00ff00">Uber,</font>
+ 111
+00:00:37,380 --> 00:00:37,440
+<font color="#00ff00">and</font> Dropbox?
+ 112
+00:00:37,440 --> 00:00:39,120
+and <font color="#00ff00">Dropbox?</font>
+ 113
+00:00:39,120 --> 00:00:39,420
+<font color="#00ff00">It's</font> like the
+ 114
+00:00:39,420 --> 00:00:39,500
+It's <font color="#00ff00">like</font> the
+ 115
+00:00:39,500 --> 00:00:39,640
+It's like <font color="#00ff00">the</font>
+ 117
+00:00:39,640 --> 00:00:39,820
+<font color="#00ff00">best</font> of them.
+ 118
+00:00:39,820 --> 00:00:39,940
+best <font color="#00ff00">of</font> them.
+ 119
+00:00:39,940 --> 00:00:40,000
+best of <font color="#00ff00">them.</font>
+ 120
+00:00:40,000 --> 00:00:40,220
+<font color="#00ff00">That's</font> the spirit,
+ 121
+00:00:40,220 --> 00:00:40,340
+That's <font color="#00ff00">the</font> spirit,
+ 122
+00:00:40,340 --> 00:00:40,920
+That's the <font color="#00ff00">spirit,</font>
+ 124
+00:00:40,920 --> 00:00:41,320
+<font color="#00ff00">folks.</font>
+ 125
+00:00:41,320 --> 00:00:41,680
+<font color="#00ff00">Golang</font> is all
+ 126
+00:00:41,680 --> 00:00:41,820
+Golang <font color="#00ff00">is</font> all
+ 127
+00:00:41,820 --> 00:00:41,980
+Golang is <font color="#00ff00">all</font>
+ 128
+00:00:41,980 --> 00:00:42,180
+<font color="#00ff00">about</font> efficiency and
+ 129
+00:00:42,180 --> 00:00:42,680
+about <font color="#00ff00">efficiency</font> and
+ 130
+00:00:42,680 --> 00:00:43,000
+about efficiency <font color="#00ff00">and</font>
+ 131
+00:00:43,000 --> 00:00:43,280
+<font color="#00ff00">power.</font>

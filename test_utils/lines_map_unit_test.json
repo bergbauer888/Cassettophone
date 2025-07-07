@@ -1,0 +1,37 @@
+[
+    {
+        "agentId": "joe_biden",
+        "start": "0:00:01,020000",
+        "end": "0:00:07,600000"
+    },
+    {
+        "agentId": "kamala_harris",
+        "start": "0:00:08,020000",
+        "end": "0:00:14,560000"
+    },
+    {
+        "agentId": "donald_trump",
+        "start": "0:00:14,780000",
+        "end": "0:00:20,200000"
+    },
+    {
+        "agentId": "joe_biden",
+        "start": "0:00:20,360000",
+        "end": "0:00:26,120000"
+    },
+    {
+        "agentId": "kamala_harris",
+        "start": "0:00:27,340000",
+        "end": "0:00:33,120000"
+    },
+    {
+        "agentId": "donald_trump",
+        "start": "0:00:33,220000",
+        "end": "0:00:39,980000"
+    },
+    {
+        "agentId": "joe_biden",
+        "start": "0:00:40",
+        "end": "0:00:43,280000"
+    }
+]

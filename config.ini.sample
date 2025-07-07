@@ -1,0 +1,20 @@
+[settings]
+GOKAPI_URL =
+GOKAPI_TOKEN =
+AUDIO_MODEL_NAME = Zyphra/Zonos-v0.1-transformer
+TEXT_MODEL_NAME =
+OUTPUT_FOLDER = culala
+SEARX_BASE_URL =
+VIDEO_RENDERING_CODEC = libx264
+[prompt]
+template = \
+    Create a dialogue for a short-form conversation on the topic of {topic}. \
+    The conversation should be between {no_characters} agents: {agent_names}. \
+    who should act as extreme, over-the-top caricatures of themselves with wildly exaggerated personality traits and mannerisms. \
+    All agents should be working on explaining the topic, {topic}, perhaps ask some useful questions and such. \
+    The dialogue should provide insights into {topic} but do so in the clearest and most understandable way possible. Limit the dialogue to a maximum of 7 exchanges, aiming for a concise transcript that would last for 1 minute. \
+    The agentId attribute should be one of the agents listed above. The text attribute should be that character's line of dialogue. Perhaps make it edgy and controversial while still being funny, but remember that the main point is to summarize the topic. Remember, all agents are behaving like they would in real life, but more inflammatory. \
+    Additionally, analyze the topic prompt, and generate one short text about the subject (2-3 words) which will be used for a Google image search \
+    The words should be a complete summarization, no sentences or anything. Ex: if the characters are talking about the fall of the Berlin wall you should suggest 'berlin wall fall'. Keep in mind that this result will later be placed in a dictionary.\
+    YOUR ANSWER SHOULD BE IN PURE JSON FORMAT. NO EXTRA MARKDOWN FORMATTING OR ANYTHING!!!The JSON format WHICH MUST BE ADHERED TO ALWAYS is as follows: {{ "transcript": [ {{"agentId": "the value of one of the agents listed above. keep the agentId names unchanged!! (ex Kamala Harris stays Kamala Harris) ", "text": "their line of conversation in the dialog"}} ], "summary": ["string with summary1 for google search"] }}\
+    I REPEAT, YOUR ANSWER SHOULD BE IN VALID PURE PARSABLE JSON FORMAT. NO EXTRA MARKDOWN FORMATTING OR ANYTHING!!!The JSON format WHICH MUST BE ADHERED TO ALWAYS is as follows: {{ "transcript": [ {{"agentId": "the value of one of the agents listed above. keep the agentId names unchanged!! (ex Kamala Harris stays Kamala Harris) ", "text": "their line of conversation in the dialog"}} ], "summary": ["string with summary1 for google search"] }}

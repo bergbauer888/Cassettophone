@@ -1,0 +1,4 @@
+uv venv --python 3.11.0
+source .venv/bin/activate
+uv sync
+uv run main.py
