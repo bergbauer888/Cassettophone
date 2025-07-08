@@ -116,7 +116,8 @@ def runner(video_params, characters_map):
         video_params["reel_path"],
     )
     print(f"{text_color_pixel}\n" + "[*] Reel Generated\n")
-    if config['settings']['GOKAPI_URL']:
+    
+    if config['settings'].get("GOKAPI_URL", '').strip():
         print(f"{text_color_pixel}\n" + "[*] Uploading Video\n")
         video_url = upload_video(video_params["reel_path"])
         print(f"{text_color_pixel}\n" + "[*] Video Uploaded\n")
