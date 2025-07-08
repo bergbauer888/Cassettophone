@@ -1,8 +1,8 @@
 # Cassettophone
 A fully local self hosted Brainrot generator. No subscriptions (or internet) needed.
 ## Key Features:
-- Producing Brainrot content with voice cloning, images and avatar overlays 
-- Customizable Aesthetics (backgrounds, fonts, background music, character avatars, etc)  
+- Producing Brainrot content with voice cloning, images and avatar overlays
+- Customizable Aesthetics (backgrounds, fonts, background music, character avatars, etc)
 - Prioritizing the usage of the GPU, especially in heavy operations such as audio generation.
 - Processing and rendering done using ffmpeg instead of MoviePy.
 - Ability to upload resources to a remote destination, facilitating working with a remote server.
@@ -16,12 +16,14 @@ Useful links:
 - [Installing ffmpeg](https://github.com/oop7/ffmpeg-install-guide)
 - [Installing uv](https://docs.astral.sh/uv/getting-started/installation/)
 ## Steps to run the app:
-- Create a config.ini file (sample provided)
-- uv venv --python 3.13.0
-- source .venv/bin/activate
-- uv sync
-- uv run main.py
-- alternatively*, just python3 main.py
+Create a config.ini file (sample provided), then run the following commands:
+```
+uv venv --python 3.13.0
+source .venv/bin/activate
+uv sync
+uv run main.py
+alternatively*, just python3 main.py
+```
 
 After running the script, the video will be saved at the location specified by the OUTPUT_FOLDER configuration variable, and it will follow the naming pattern: *brainrot_kunst_**timestamp**.mp4* (example output path -> *culala/brainrot_kunst_08-07-09-16.mp4*)
 
