@@ -204,9 +204,9 @@ def download_image(image_url, output_path):
 
 def fetch_search_image_url(query):
     params = {"q": query, "categories": "images", "format": "json"}
-    if config['settings'].get("SEARX_BASE_URL", '').strip():
-            print("No searx instance has been set.")
-            return None
+    if not config['settings']["SEARX_BASE_URL"]:
+        print("No searx instance has been set.")
+        return None
     response = requests.get(
         config["settings"]["SEARX_BASE_URL"] + "/search", params=params
     )
@@ -244,6 +244,7 @@ Sometimes the generated subtitles will contain lines have no highlighted words, 
 3
 00:00:01,760 --> 00:00:01,840
 Challenge accepted, Donald.
+instead of <font color="#00ff00">Challenge</font> accepted, Donald. 
 In order to avoid a visual tweaking effect, we need to replace the ending timestamp
 of the previous row with the one of the faulty line.
 """
@@ -301,9 +302,10 @@ def download_suggestive_images(script, output_folder):
     output_paths = []
     for index, summary in enumerate(parse_json(script)["summary"]):
         image_url = fetch_search_image_url(summary)
-        output_path = f"{output_folder}/summary{index}.png"
-        download_image(image_url, output_path)
-        output_paths.append(output_path)
+        if image_url:
+            output_path = f"{output_folder}/summary{index}.png"
+            download_image(image_url, output_path)
+            output_paths.append(output_path)
     return output_paths
 
 
