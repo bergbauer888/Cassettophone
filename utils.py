@@ -204,7 +204,7 @@ def download_image(image_url, output_path):
 
 def fetch_search_image_url(query):
     params = {"q": query, "categories": "images", "format": "json"}
-    if config["settings"]["SEARX_BASE_URL"]:
+    if config['settings'].get("SEARX_BASE_URL", '').strip():
             print("No searx instance has been set.")
             return None
     response = requests.get(
