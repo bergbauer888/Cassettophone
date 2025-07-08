@@ -61,7 +61,8 @@ def runner(video_params, characters_map):
     summary_output_paths = download_suggestive_images(
         script, f'{video_params["output_folder"]}'
     )
-    print(f"{text_color_pixel}\n" + "[*] Suggestive Image Generated\n")
+    if summary_output_paths:
+        print(f"{text_color_pixel}\n" + "[*] Suggestive Image Generated\n")
     print(f"{text_color_pixel}\n" + "[*] Mixing Audio\n")
     mix_audiofiles(
         f'{video_params["audio_output_folder"]}/video_audio.wav',
@@ -117,7 +118,7 @@ def runner(video_params, characters_map):
     )
     print(f"{text_color_pixel}\n" + "[*] Reel Generated\n")
     
-    if config['settings'].get("GOKAPI_URL", '').strip():
+    if config['settings']["GOKAPI_URL"]:
         print(f"{text_color_pixel}\n" + "[*] Uploading Video\n")
         video_url = upload_video(video_params["reel_path"])
         print(f"{text_color_pixel}\n" + "[*] Video Uploaded\n")
