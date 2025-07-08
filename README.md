@@ -2,7 +2,7 @@
 A fully local self hosted Brainrot generator. No subscriptions (or internet) needed.
 ##### README is WIP
 ## Steps to run the app:
-
+- Create a config.ini file (sample provided)
 - uv venv --python 3.13.0
 - source .venv/bin/activate
 - uv sync
