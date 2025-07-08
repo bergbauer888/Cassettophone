@@ -40,6 +40,6 @@ OUTPUT_FOLDER = culala
 SEARX_BASE_URL =
 ```
 ## Known bugs:
-- When creating a reel, the video script does not always fit on the screen
+- While running the app, the script preview does not always fit on the screen
 - The character avatar and voice get de-syncronyzed sometimes
 - The "sentence" subtitle type might not work as expected with certain fonts
