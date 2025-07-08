@@ -1,4 +1,5 @@
 # Cassettophone
+A fully local self hosted Brainrot generator. No subscriptions (or internet) needed.
 ##### README is WIP
 ## Steps to run the app:
 
