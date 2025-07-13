@@ -91,7 +91,7 @@ def get_formatting_params(rendering_codec, output_path):
         "-c:v",
         rendering_codec,
         "-c:a",
-        "copy",
+        "aac",
         output_path,
     ]
 
