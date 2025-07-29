@@ -1,0 +1,41 @@
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('../fonts/Wiener_Melange_Regular.otf') format('truetype');
+        }
+        body, html {
+            background-color: #000;
+            color: #fff;
+            font-family: 'CustomFont', sans-serif;
+        }
+        form {
+            border: 2px solid ;
+            padding: 2rem;
+        }
+        label, input, select, button {
+            color: #fff;
+        }
+        label {
+            margin-bottom: 0.5rem;
+        }
+        input, select {
+            background-color: #1a1a1a;
+            border: 2px solid #5dd4fe;
+            padding: 0.75rem;
+            color: #fff;
+        }
+        button {
+            background-color: #5dd4fe;
+            border: none;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #00a8e4;
+        }
+        #progress {
+            margin-top: 2rem;
+            color: #5dd4fe;
+        }
