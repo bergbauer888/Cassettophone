@@ -17,7 +17,7 @@ import questionary
 from assets_params import cli_styling, qmark_styling
 
 
-def generate_draft_script(model_name, topic, characters_list):
+def generate_script(model_name, topic, characters_list):
     no_characters = len(characters_list)
     if no_characters == 1:
         agent_names = characters_list[0]
@@ -31,17 +31,6 @@ def generate_draft_script(model_name, topic, characters_list):
     )
     response = chat(model=model_name, messages=[{"role": "system", "content": content}])
     return response.message.content
-
-
-def generate_script(script_gen_model_name, topic, characters_list):
-    while True:
-        script = generate_draft_script(script_gen_model_name, topic, characters_list)
-        answer = questionary.confirm(
-            f"{script}\nKeep the script?", style=cli_styling, qmark=qmark_styling
-        ).ask()
-        if answer:
-            return script
-
 
 def generate_audio(
     audio_gen_model_name, video_script_json, characters_map, output_folder

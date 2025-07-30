@@ -17,6 +17,11 @@ from video_utils import convert_subtitle_file, snip_video, get_mediafile_duratio
 
 
 def runner(video_params, characters_map):
+    prepare_fs(
+        video_params["output_folder"],
+        video_params["audio_output_folder"],
+        video_params["subtitle_output_folder"],
+    )
     print_logo()
     print(f"{text_color_pixel}\n" + "[*] Generating Script. This will take a bit\n")
     script = generate_script(
@@ -184,11 +189,6 @@ def main():
     )
     video_params["reel_path"] = (
         f'{video_params["output_folder"]}/brainrot_kunst_{datetime.now().strftime("%d-%m-%H-%M")}.mp4'
-    )
-    prepare_fs(
-        video_params["output_folder"],
-        video_params["audio_output_folder"],
-        video_params["subtitle_output_folder"],
     )
     runner(video_params, characters_map)
 
