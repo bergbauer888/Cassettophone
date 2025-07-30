@@ -1,0 +1,6 @@
+{% for character in characters %}
+    <label>
+        <input type="checkbox" name="characters" value="{{character.id}}" >
+        {{character.value}}
+    </label><br>
+{% endfor %}

@@ -24,14 +24,13 @@
         <label for="music" class="block">Music</label>
         <select id="music" name="music"></select>
     </div>
-    <!--    de rezolvat aici pt multiselect-->
     <div class="mt-4"
          hx-get="/get_characters"
          hx-trigger="load"
          hx-target="#characters"
          hx-swap="innerHTML">
         <label for="characters" class="block">Characters</label>
-        <select id="characters" name="characters"></select>
+        <fieldset id="characters" name="characters" ></fieldset>
     </div>
     <div class="mt-4"
          hx-get="/get_backdrops"

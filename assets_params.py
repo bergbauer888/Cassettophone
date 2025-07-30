@@ -23,6 +23,8 @@ video_paths = [f"backdrop/{video}" for video in list_files_in_dir("backdrop")]
 
 subtitle_types = ["word", "sentence"]
 
+results_store = {}
+
 fonts = [
     "Wiener Melange",
     "Permanent Marker",

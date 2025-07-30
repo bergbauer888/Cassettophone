@@ -1,4 +1,5 @@
 import configparser
+import time
 from datetime import datetime
 
 from flask import Flask, render_template, jsonify, request
@@ -9,14 +10,17 @@ from assets_params import (
     music_choices,
     video_paths,
     subtitle_types,
-    fonts,
+    fonts, results_store,
 )
 import uuid
 from threading import Thread
 
+from utils import fix_agent_casing
+
 app = Flask("brainrot", template_folder="templates")
 form_inputs_template = "choices.html"
-
+characters_template = "characters.html"
+result_template = "result.html"
 
 @app.route("/")
 def index():
@@ -32,8 +36,8 @@ def get_music_choices():
 @app.route("/get_characters")
 def get_characters():
     characters = [character["display_name"] for character in characters_map.values()]
-    choices = [{"value": character, "label": character} for character in characters]
-    return render_template(form_inputs_template, choices=choices)
+    choices = [{"value": character, "id": fix_agent_casing(character)} for character in characters]
+    return render_template(characters_template, characters=choices)
 
 
 @app.route("/get_backdrops")
@@ -56,17 +60,23 @@ def get_fonts():
 
 @app.route("/run", methods=["POST"])
 def run():
-
     video_params = generate_video_params_dict(request.form)
     thread = Thread(target=runner, args=(video_params, characters_map))
     thread.start()
-    return jsonify({"status": "started"})
+
+    unique_id = video_params['video_id']
+    results_store[unique_id] = {"status": "started"}
+
+    while results_store[unique_id]["status"] == "started":
+        time.sleep(10)
+
+    return render_template(result_template, result= results_store[unique_id])
 
 
 def generate_video_params_dict(form_data):
     return {
         "video_id": str(uuid.uuid4()),
-        "topic": "jj",
+        "topic": form_data["topic"],
         "music": form_data["music"],
         "characters": [form_data["characters"]],
         "backdrop": form_data["backdrop"],
@@ -75,11 +85,9 @@ def generate_video_params_dict(form_data):
         "script_gen_model_name": config["settings"]["TEXT_MODEL_NAME"],
         "audio_gen_model_name": config["settings"]["AUDIO_MODEL_NAME"],
         "output_folder": config["settings"]["OUTPUT_FOLDER"],
-        "audio_output_folder": f"{['output_folder']}/samples",
-        "subtitle_output_folder": f"{['output_folder']}/subtitles",
-        "reel_path": (
-            f'{["output_folder"]}/brainrot_kunst_{datetime.now().strftime("%d-%m-%H-%M")}.mp4'
-        ),
+        "audio_output_folder": f"{config["settings"]["OUTPUT_FOLDER"]}/samples",
+        "subtitle_output_folder": f"{config["settings"]["OUTPUT_FOLDER"]}/subtitles",
+        "reel_path": f'{["output_folder"]}/brainrot_kunst_{datetime.now().strftime("%d-%m-%H-%M")}.mp4',
     }
 
 

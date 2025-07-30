@@ -4,7 +4,7 @@ from assets_params import (
     subtitle_types,
     fonts,
     music_choices,
-    text_color_pixel,
+    text_color_pixel, results_store,
 )
 from datetime import datetime
 from flask import Response, jsonify
@@ -129,11 +129,14 @@ def runner(video_params, characters_map):
         video_url = upload_video(video_params["reel_path"])
         print(f"{text_color_pixel}\n" + "[*] Video Uploaded\n")
         print(f"{text_color_pixel}\n" + "[*] Download URL: " + video_url + "\n")
-        return jsonify({"video_url":video_url})
+        result = {
+            "status": "completed",
+            "video_url":video_url
+        }
+        unique_id = video_params.get('unique_id')
+        results_store[unique_id] = result
 
     print("\n[*] Job Finished")
-
-    return None
 
 
 def main():
