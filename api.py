@@ -6,6 +6,7 @@ from brainrot_cli import runner
 from assets_params import (
     characters_map, music_choices, video_paths, subtitle_types, fonts
 )
+import uuid
 from threading import Thread
 
 app = Flask('brainrot', template_folder='templates')
@@ -43,10 +44,18 @@ def get_fonts():
 
 @app.route('/run', methods=['POST'])
 def run():
-    video_params = request.form.to_dict()
+    video_id = str(uuid.uuid4())
+    form_data = request.form
+    print(form_data)
+    print("aici")
+    video_params = {}
+
     thread = Thread(target=runner, args=(video_params,characters_map))
     thread.start()
     return jsonify({"status": "started"})
+
+def generate_video_params_dict():
+    pass
 
 if __name__ == '__main__':
     config = configparser.ConfigParser()

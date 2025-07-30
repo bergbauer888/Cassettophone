@@ -10,29 +10,28 @@
 <body class="p-4">
 <h1 class="text-3xl font-bold mb-6">Cassettophone</h1>
 <form hx-post="/run"
-      hx-trigger="submit.none"
       hx-target="#progress"
       class="max-w-lg mx-auto">
     <div>
         <label for="topic" class="block">Topic</label>
-        <input type="text" id="topic" name="topic" class="mt-1 block w-full py-2 px-3">
+        <textarea id="topic" name="topic" rows="5" class="mt-1 block w-full py-2 px-3"></textarea>
     </div>
     <div class="mt-4"
-                hx-get="/get_music_choices"
-                hx-trigger="load"
-                hx-target="#music"
-                hx-swap="innerHTML">
+         hx-get="/get_music_choices"
+         hx-trigger="load"
+         hx-target="#music"
+         hx-swap="innerHTML">
         <label for="music" class="block">Music</label>
-        <select id="music"></select>
+        <select id="music" name="music"></select>
     </div>
-<!--    de rezolvat aici pt multiselect-->
+    <!--    de rezolvat aici pt multiselect-->
     <div class="mt-4"
          hx-get="/get_characters"
          hx-trigger="load"
          hx-target="#characters"
          hx-swap="innerHTML">
         <label for="characters" class="block">Characters</label>
-        <select id="characters"></select>
+        <select id="characters" name="characters"></select>
     </div>
     <div class="mt-4"
          hx-get="/get_backdrops"
@@ -40,7 +39,7 @@
          hx-target="#backdrop"
          hx-swap="innerHTML">
         <label for="backdrop" class="block">Backdrop</label>
-        <select id="backdrop"></select>
+        <select id="backdrop" name="backdrop"></select>
     </div>
     <div class="mt-4"
          hx-get="/get_subtitle_types"
@@ -48,7 +47,7 @@
          hx-target="#subtitle_type"
          hx-swap="innerHTML">
         <label for="subtitle_type" class="block">Subtitle Type</label>
-        <select id="subtitle_type"></select>
+        <select id="subtitle_type" name="subtitle_type"></select>
     </div>
     <div class="mt-4"
          hx-get="/get_fonts"
@@ -56,7 +55,7 @@
          hx-target="#font"
          hx-swap="innerHTML">
         <label for="font" class="block">Font</label>
-        <select id="font"></select>
+        <select id="font" name="font"></select>
     </div>
     <button type="submit" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Generate Video</button>
 </form>

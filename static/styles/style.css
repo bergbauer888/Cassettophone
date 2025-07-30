@@ -17,7 +17,7 @@
         label {
             margin-bottom: 0.5rem;
         }
-        input, select {
+        input, select, textarea {
             background-color: #1a1a1a;
             border: 2px solid #5dd4fe;
             padding: 0.75rem;

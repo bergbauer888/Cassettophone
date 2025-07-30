@@ -7,6 +7,7 @@ from assets_params import (
     text_color_pixel,
 )
 from datetime import datetime
+from flask import Response, jsonify
 from generators import *
 import questionary
 from utils import *
@@ -123,7 +124,11 @@ def runner(video_params, characters_map):
         video_url = upload_video(video_params["reel_path"])
         print(f"{text_color_pixel}\n" + "[*] Video Uploaded\n")
         print(f"{text_color_pixel}\n" + "[*] Download URL: " + video_url + "\n")
+        return jsonify({"video_url":video_url})
+
     print("\n[*] Job Finished")
+
+    return None
 
 
 def main():
