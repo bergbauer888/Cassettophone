@@ -1,5 +1,4 @@
 import configparser
-import time
 from datetime import datetime
 
 from flask import Flask, render_template, jsonify, request
@@ -67,9 +66,6 @@ def run():
     unique_id = video_params['video_id']
     results_store[unique_id] = {"status": "started"}
 
-    while results_store[unique_id]["status"] == "started":
-        time.sleep(10)
-
     return render_template(result_template, result= results_store[unique_id])
 
 
@@ -87,11 +83,11 @@ def generate_video_params_dict(form_data):
         "output_folder": config["settings"]["OUTPUT_FOLDER"],
         "audio_output_folder": f"{config["settings"]["OUTPUT_FOLDER"]}/samples",
         "subtitle_output_folder": f"{config["settings"]["OUTPUT_FOLDER"]}/subtitles",
-        "reel_path": f'{["output_folder"]}/brainrot_kunst_{datetime.now().strftime("%d-%m-%H-%M")}.mp4',
+        "reel_path": f'{config["settings"]["OUTPUT_FOLDER"]}/brainrot_kunst_{datetime.now().strftime("%d-%m-%H-%M")}.mp4',
     }
 
 
 if __name__ == "__main__":
     config = configparser.ConfigParser()
     config.read("config.ini")
-    app.run(debug=True)
+    app.run()
