@@ -17,12 +17,12 @@ Useful links:
 - [Installing uv](https://docs.astral.sh/uv/getting-started/installation/)
 ## Steps to run the app:
 Create a config.ini file (sample provided), then run the following commands:
-```
+``
 uv venv --python 3.13.0
 source .venv/bin/activate
 uv sync
-uv run main.py
-alternatively*, just python3 main.py
+uv run brainrot_cli.py
+alternatively*, just python3 brainrot_cli.py
 ```
 
 After running the script, the video will be saved at the location specified by the OUTPUT_FOLDER configuration variable, and it will follow the naming pattern: *brainrot_kunst_**timestamp**.mp4* (example output path -> *culala/brainrot_kunst_08-07-09-16.mp4*)
